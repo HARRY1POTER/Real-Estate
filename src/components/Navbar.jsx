@@ -10,7 +10,7 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrowerOpen);
   };
-
+ 
   return (
     <BrowserRouter>
       <div className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-800/80">
